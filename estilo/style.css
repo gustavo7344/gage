@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans&family=Poppins:wght@200&family=Rubik&family=Shippori+Antique&family=Source+Sans+Pro:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header{
+    background: aqua;
+    display: flex;
+    padding: 1px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tos1{
+    /*background: red;*/
+    margin: 10px;
+    line-height: 50px;
+    text-align: center;
+
+    border-radius: 15px;
+}
+
+.tos1 a{
+    text-decoration: none;
+    color: white;
+    background: chartreuse;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+/*div popup*/
+.opspri{
+    background: rgba(0, 0, 0, 0.831);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: none;
+}
+.ops{
+    background: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    /*padding: 20px;*/
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.194);
+}
+
+.opsfechar{
+    cursor: pointer;
+    background: #FF0000;
+    padding: 5px;
+    margin: 10ps;
+    width: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.opscont a{
+    text-decoration: none;
+    color: white;
+}
+/*div popup*/
+
+.capa1{
+    max-width: 550px;
+    width: auto;
+    margin: auto;
+    color: rgba(0, 0, 255, 0);
+    padding: 10px;
+}
+.capa2{
+    background-image: url(../arquivos/imagens/capa.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #067ded97;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
